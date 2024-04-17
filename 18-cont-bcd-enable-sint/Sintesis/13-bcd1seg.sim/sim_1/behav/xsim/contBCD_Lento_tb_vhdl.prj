@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../15-cont-bcd-beh/Fuentes/contBCDBeh.vhd" \
+"../../../../../Fuentes/contBCD_Lento.vhd" \
+"../../../../../../17-gen-enable/Fuentes/genEna.vhd" \
+"../../../../../Fuentes/contBCD_Lento_tb.vhd" \
+
+# Do not sort compile order
+nosort
