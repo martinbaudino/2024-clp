@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Thu May  2 04:11:59 2024
-# Process ID: 12928
+# Start of session at: Thu May  2 09:50:35 2024
+# Process ID: 26956
 # Current directory: C:/pd/2024-CLP/01_guia_vhdl/19-mult-punto-flotante/Sintesis/multiplicador_flotante.runs/impl_1
 # Command line: vivado.exe -log mult_flot_vio.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mult_flot_vio.tcl -notrace
 # Log file: C:/pd/2024-CLP/01_guia_vhdl/19-mult-punto-flotante/Sintesis/multiplicador_flotante.runs/impl_1/mult_flot_vio.vdi

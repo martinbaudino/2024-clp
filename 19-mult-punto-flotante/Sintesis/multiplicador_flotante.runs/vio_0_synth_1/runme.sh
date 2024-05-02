@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/pd/2024-CLP/01_guia_vhdl/19-mult-punto-flotante/19-mult-punto-flotante/Sintesis/multiplicador_flotante.runs/vio_0_synth_1'
+HD_PWD='C:/pd/2024-CLP/01_guia_vhdl/19-mult-punto-flotante/Sintesis/multiplicador_flotante.runs/vio_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

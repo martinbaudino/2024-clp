@@ -33,8 +33,7 @@ use work.tipo_punto_flotante_pkg.all;
 --use UNISIM.VComponents.all;
 
 entity mult_flot_vio is
-    Port ( clk_i : in STD_LOGIC;
-           sel_op_i : in STD_LOGIC_VECTOR (1 downto 0)
+    Port ( clk_i : in STD_LOGIC
         );
 end mult_flot_vio;
 
@@ -57,7 +56,6 @@ architecture Behavioral of mult_flot_vio is
         clk : IN STD_LOGIC;
         probe_in0 : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
         probe_in1 : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-        probe_in2 : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
         probe_out0 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
         probe_out1 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
         probe_out2 : OUT STD_LOGIC_VECTOR(0 DOWNTO 0);
@@ -75,7 +73,6 @@ begin
         clk => clk_i,
         probe_in0 => listo_sig,
         probe_in1 => resultado_sig,
-        probe_in2 => sel_op_i,
         probe_out0 => op1_sig,
         probe_out1 => op2_sig,
         probe_out2 => iniciar_sig,

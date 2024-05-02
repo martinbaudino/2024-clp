@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Thu May  2 04:12:45 2024
+| Date             : Thu May  2 09:51:29 2024
 | Host             : cellanome-msb running 64-bit major release  (build 9200)
 | Command          : report_power -file mult_flot_vio_power_routed.rpt -pb mult_flot_vio_power_summary_routed.pb -rpx mult_flot_vio_power_routed.rpx
 | Design           : mult_flot_vio
@@ -53,16 +53,16 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |    <0.001 |        3 |       --- |             --- |
-| Slice Logic              |    <0.001 |     2487 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |      750 |     17600 |            4.26 |
-|   Register               |    <0.001 |     1462 |     35200 |            4.15 |
+| Slice Logic              |    <0.001 |     2458 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |      738 |     17600 |            4.19 |
+|   Register               |    <0.001 |     1448 |     35200 |            4.11 |
 |   CARRY4                 |    <0.001 |       14 |      4400 |            0.32 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
-|   Others                 |     0.000 |      103 |       --- |             --- |
-| Signals                  |    <0.001 |     1917 |       --- |             --- |
+|   Others                 |     0.000 |      101 |       --- |             --- |
+| Signals                  |    <0.001 |     1894 |       --- |             --- |
 | DSPs                     |    <0.001 |        2 |        80 |            2.50 |
-| I/O                      |    <0.001 |        3 |       100 |            3.00 |
+| I/O                      |    <0.001 |        1 |       100 |            1.00 |
 | Static Power             |     0.090 |          |           |                 |
 | Total                    |     0.092 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
@@ -182,8 +182,8 @@ Table of Contents
 |                         gntv_or_sync_fifo.mem                                      |    <0.001 |
 |                           gdm.dm_gen.dm                                            |    <0.001 |
 |                             RAM_reg_0_15_0_5                                       |     0.000 |
-|                             RAM_reg_0_15_12_15                                     |    <0.001 |
-|                             RAM_reg_0_15_6_11                                      |     0.000 |
+|                             RAM_reg_0_15_12_15                                     |     0.000 |
+|                             RAM_reg_0_15_6_11                                      |    <0.001 |
 |                         rstblk                                                     |    <0.001 |
 |                           ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[1].rrst_inst |    <0.001 |
 |                           ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[1].wrst_inst |    <0.001 |
@@ -237,13 +237,12 @@ Table of Contents
 |     inst                                                                           |    <0.001 |
 |       DECODER_INST                                                                 |    <0.001 |
 |       PROBE_IN_INST                                                                |    <0.001 |
-|       PROBE_IN_WIDTH_INST                                                          |    <0.001 |
 |       PROBE_OUT_ALL_INST                                                           |    <0.001 |
 |         G_PROBE_OUT[0].PROBE_OUT0_INST                                             |    <0.001 |
 |         G_PROBE_OUT[1].PROBE_OUT0_INST                                             |    <0.001 |
 |         G_PROBE_OUT[2].PROBE_OUT0_INST                                             |    <0.001 |
 |         G_PROBE_OUT[3].PROBE_OUT0_INST                                             |    <0.001 |
-|       PROBE_OUT_WIDTH_INST                                                         |    <0.001 |
+|       PROBE_OUT_WIDTH_INST                                                         |     0.000 |
 |       U_XSDB_SLAVE                                                                 |    <0.001 |
 +------------------------------------------------------------------------------------+-----------+
 
