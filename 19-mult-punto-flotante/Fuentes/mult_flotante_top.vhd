@@ -22,6 +22,7 @@ end entity;
 architecture mult_flotante_top_arq of mult_flotante_top is
 	signal instancia_mult_flot : registro_multiplicador_flotante;
 begin
+
 	process (clk_i, rst_i, iniciar_i, op1_i, op2_i)
 		-- Variables para valores de entradas
 		-- Variables para valores de operaciones
